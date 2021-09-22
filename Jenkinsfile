@@ -1,5 +1,7 @@
 pipeline {
-    agent "kubernetes || ba1"
+    agent {
+        label 'kubernetes || ba1'
+    }
     options { timestamps () }
 
     stages {
