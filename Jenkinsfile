@@ -1,5 +1,5 @@
 pipeline {
-    agent any 
+    agent "ba1"
     options { timestamps () }
 
     stages {
